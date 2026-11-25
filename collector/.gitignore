@@ -1,0 +1,39 @@
+# Runtime SQLite databases & lock files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+
+# Logs & runtime temporary files
+logs/
+*.log
+*.tmp
+*.bak
+*.pid
+*.dmp
+crashdumps/
+
+# Environment & local configuration overrides (keep secrets out of Git)
+.env
+.env.*
+appsettings.Production.json
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+
+# Build & IDE artifacts
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+
+# OS metadata
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
